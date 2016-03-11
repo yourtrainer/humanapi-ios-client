@@ -349,16 +349,4 @@ CGFloat NavbarHeight = 54;
     // Dispose of any resources that can be recreated.
 }
 
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations
-{
-	//	Only allow rotation to portrait
-	return UIInterfaceOrientationMaskPortrait;
-}
-
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
-{
-	//	Force to portrait
-	return UIInterfaceOrientationPortrait;
-}
-
 @end
